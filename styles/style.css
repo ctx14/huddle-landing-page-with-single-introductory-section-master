@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a {
+  color: #fff;
+}
+.attribution a:visited {
+  color: #fff;
+}
+
+body {
+  height: 100%;
+}
+
+.main-flex-center-wrapper {
+  background: url(../images/bg-mobile.svg) center center no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+
+}
+
+.container {
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+button {
+  width: 300px;
+  margin-top: 30px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: hsl(257, 40%, 49%);
+  font-weight: bold;
+  border: none;
+  background-color: #fff;
+  box-shadow: 6px 10px 12px -6px rgba(0,0,0,0.75);
+
+}
+
+header {
+  padding: 10px 0;
+}
+
+button:hover {
+background-color: hsl(300, 69%, 71%);
+color: #fff;
+}
+
+.logo {
+  padding: 10px;
+}
+
+p {font-family: 'Open Sans', sans-serif;}
+h1 {font-family: 'poppins',sans-serif;
+font-size: 2em;}
+
+.main-text, .main-text-header {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.main-illustration img {
+max-width: 100%;
+height: auto;
+margin-bottom: 50px;
+}
+
+
+.main-text h1 {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.social-logos {
+  margin: 10px 0;
+}
+
+.social-logos i {
+  font-size: 1.8em;
+  margin: 0 10px;
+  text-align: center;
+}
+
+header {
+  padding-top: 50px;
+
+}
+
+@media screen and (min-width: 986px){
+
+.main-flex-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section {
+flex-basis: 0;
+flex-grow: 1;
+
+
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 96%;
+
+}
+
+.main-text, .main-text-header {
+  text-align: left;
+}
+
+.main-text-header {
+  margin-top: 20px;
+}
+
+.main-text {
+  margin-left: 40px;
+}
+
+.main-flex-center-wrapper {
+  background: url(../images/bg-desktop.svg) center center no-repeat;
+background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+}
+
+button {
+  width: 200px;
+
+
+}
+
+.main-illustration {
+  flex-grow: 1.5;
+}
+
+.main-text h1 {
+  margin-bottom: 20px;
+}
+
+.footer-flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+}
