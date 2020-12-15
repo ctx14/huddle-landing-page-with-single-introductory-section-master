@@ -23,7 +23,7 @@ body {
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
   color: #fff;
-
+  height: 100%;
 }
 
 .container {
